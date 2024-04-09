@@ -2,13 +2,16 @@
 
 int main(int argc, char const *argv[])
 {
-    int num, antecesor;
+
+    //codigo
+    int numero, antecesor;
     printf("Ingresa un numero: ");
-    scanf("%d", &num);
+    scanf("%d", &numero);
 
-    antecesor = num - 1;
+    antecesor = numero - 1;
 
-    printf("El antecesor de %d es %d\n", num, antecesor);
+    printf("El antecesor de %d es %d\n", numero, antecesor);
 
     return 0;
 }
+
